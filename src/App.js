@@ -3,6 +3,7 @@ import './App.css';
 import Button from './Button';
 import Button2 from './Button2';
 import Welcome from './Welcome';
+import Snippet from './Snippet';
 
 function App() {
   return (
@@ -12,9 +13,15 @@ function App() {
 
       <Welcome name="Flavia"/>
 
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+<Snippet title="Nurse's house in home search relesed" 
+timeAgo="2h" 
+category="Liverpool"/>
+<Snippet title="Fisherman rescued on island after days without food" 
+timeAgo="1h" 
+category="Australia"/>
+<Snippet title="Kate Bush song in running for top award 3 years after release" 
+timeAgo="4m" 
+category="Entertainment & Arts"/>
        <Button/>
        <Button2/>
       </header>
