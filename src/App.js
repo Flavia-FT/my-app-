@@ -1,6 +1,5 @@
 import logo from './logo.svg';
 import './App.css';
-import Button from './Button';
 import Button2 from './Button2';
 import Welcome from './Welcome';
 import Snippet from './Snippet';
@@ -22,7 +21,6 @@ category="Australia"/>
 <Snippet title="Kate Bush song in running for top award 3 years after release" 
 timeAgo="4m" 
 category="Entertainment & Arts"/>
-       <Button/>
        <Button2/>
       </header>
     </div>
