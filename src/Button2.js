@@ -1,15 +1,8 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-
-const Button2 = ({message = "Click Me"}) =>{
+​
+const Button2 = () => {
     return (
-        <button>{message}</button>
+        <button>Button 2!</button>
     )
-    }
-// const Button2=() => {
-//     return(
-//         <button>Button2</button>
-//     )
-// }
-
+}
 export default Button2;
